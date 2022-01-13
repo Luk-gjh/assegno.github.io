@@ -1,0 +1,47 @@
+body {
+  background: black;
+  margin:0;
+  padding:0
+}
+
+li, p{
+  color:white;
+}
+
+ul{
+  display: flex;
+  position: fixed;
+  background: black;
+  width: 100%;
+  height: 80px;
+  margin:0; padding:0
+}
+li{
+  padding-left: 10px;
+  padding-top: 15px;
+ list-style-type: none
+}
+
+.container{
+  display: flex
+}
+
+.due{
+  padding-top: 100px;
+  display: flex;
+}
+
+.head{
+  display: flex
+}
+
+.hobby{
+  padding-top: 100px
+}
+
+.imgs{
+  width:100%;
+display: block;
+text-align: center;
+padding-top: 100px
+}
